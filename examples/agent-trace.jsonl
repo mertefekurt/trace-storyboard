@@ -1,0 +1,3 @@
+{"time":"2026-07-03T10:00:00Z","actor":"planner","action":"select_tool","message":"choose retrieval","latency_ms":120}
+{"time":"2026-07-03T10:00:01Z","actor":"retriever","action":"query","message":"search policy docs","latency_ms":340}
+{"time":"2026-07-03T10:00:02Z","actor":"writer","action":"draft","message":"compose answer","latency_ms":210}
