@@ -2,13 +2,11 @@
 
 ![Trace Storyboard cover](assets/readme-cover.svg)
 
-This project is a small, inspectable model evaluation tool. It prefers concrete examples and local files over hidden setup.
+Turn agent trace JSONL into readable timelines and SVG storyboards.
 
-## Visual route
+`Python`
 
-![Workflow diagram](assets/readme-diagram.svg)
-
-## Try the sample
+## Start here
 
 ```bash
 git clone https://github.com/mertefekurt/trace-storyboard.git
@@ -18,18 +16,8 @@ trace-storyboard examples/agent-trace.jsonl
 trace-storyboard examples/agent-trace.jsonl --format svg --output trace.svg
 ```
 
-## Reading notes
+## Repository
 
-The project stays useful because of these small constraints:
+[Open the source on GitHub →](https://github.com/mertefekurt/trace-storyboard)
 
-- Markdown works for PR comments.
-- SVG works for visual handoffs.
-- The trace stays local.
-
-## Maintenance rhythm
-
-```bash
-ruff check .
-pytest
-python -m trace_storyboard --help
-```
+[MIT License](LICENSE)
